@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .section-headline {
-  @apply font-bold sm:text-xl uppercase tracking-widest border-green-500 border-l-8 pl-2;
+  @apply font-bold sm:text-xl uppercase tracking-widest border-blue-500 border-l-8 pl-2;
 }
 
 progress {
@@ -25,7 +25,7 @@ progress::-webkit-progress-value {
 }
 
 .section-headline {
-  color: #10b981 !important;
+  @apply text-blue-700;
 }
 
 #chrisko-headline::before {

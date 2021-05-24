@@ -1,3 +1,7 @@
-module.exports = {
-  base: "/dev-resume-template/",
+export default {
+  base: "/me/",
+  server: {
+    port: 9000,
+    strictPort: false,
+  },
 };
